@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.tecelm.hasna.jsonparsingexample.MainActivity">
+
+<TextView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:text="Name"
+    android:textColor="#000"
+    android:textSize="20sp" />
+
+<TextView
+    android:id="@+id/salary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="80dp"
+    android:text="Salary"
+    android:textColor="#000"
+    android:textSize="20sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="button2"
+        android:layout_toRightOf="@id/btn1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:text="button3"
+        android:layout_toRightOf="@id/btn2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn4"
+        android:text="button4"
+        android:layout_toRightOf="@id/btn3"/>
+
+</RelativeLayout>
